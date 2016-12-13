@@ -16,7 +16,9 @@ import model.Cliente;
 
 /**
  *
- * @author jefferson teixeira 
+ * @author jefferson teixeira
+ * 
+ * 
  */
 @Controller
 public class ClienteControl {
@@ -63,12 +65,11 @@ public class ClienteControl {
         return "redirect:clientes";
 
     }
-    
-    @RequestMapping(value="retorno")
-    public String retorno(){
-    
-    
-    return "";
-}
+
+    @RequestMapping(value = "retorno")
+    public String retorno() {
+
+        return "";
+    }
 
 }
